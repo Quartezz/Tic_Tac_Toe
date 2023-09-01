@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const Player = (sign) => {
     this.sign = sign;
@@ -7,14 +7,14 @@ const Player = (sign) => {
         return sign;
     };
 
-    return {getSign};
+    return { getSign };
 };
 
 const gameBoard = (() => {
     const board = ["", "", "", "", "", "", "", "", ""];
     const setField = (index, sign) => {
         if (index > board.length) return;
-        return board[index];
+        board[index] = sign;
     };
 
     const getField = (index) => {
