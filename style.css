@@ -20,7 +20,7 @@ body {
 .header h1 {
     color: #1976D2;
     text-align: center;
-    font-size: 64px;
+    font-size: 80px;
 }
 
 .main {
@@ -51,4 +51,44 @@ body {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.field:hover {
+    background-color: #d8e4e9;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.restart-btn {
+    font-size: 45px;
+    color: #1976D2;
+    border-radius: 5px;
+    border: 3px solid #555555;
+    padding: 10px 20px;
+    background-color: #333333;
+}
+
+.restart-btn:hover { 
+    background-color: black;
+    cursor: pointer;
+}
+
+.restart-btn:active {
+    background-color: #333333;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 20px;
 }
